@@ -382,7 +382,6 @@ for j = 1 : t_test-1
     im = frame2im(frame);
     [imind, cm] = rgb2ind(im, 256);
     
-
     % Scrivi nel file GIF
     if j == 1
         imwrite(imind, cm, gif_filename, 'gif', 'Loopcount', inf, 'DelayTime', 0.1);
