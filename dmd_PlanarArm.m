@@ -427,7 +427,7 @@ disp('✅ GIF della dinamica generata con successo!')
 % modello DMDc
 disp('📈 Calcolo errori di ricostruzione...');
 
-% Erroree nello spazio ridotto (modello dinamico)
+% Errore nello spazio ridotto (modello dinamico)
 E_reduced = mean(abs(Ztest - Z_dmd), 1);
 
 % Errore nello spazio originale (immagini reali);
